@@ -1,0 +1,3 @@
+# Every text file is stored with LF in git and checked out with LF, so the
+# recorded documentation blob hashes stay reproducible on Windows too.
+* text=auto eol=lf

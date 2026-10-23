@@ -1,0 +1,9 @@
+# Bilingual-pair consistency record: the git blob hash of each side as of the last
+# confirmed-consistent state. Both languages carry equal authority; after editing
+# either side, bring the other along and re-record with:
+#   git hash-object README.md README.zh.md
+# The DeepSeek Harness monorepo records this file through its own
+# `pnpm run verify-translation-pairing --write <path>` tooling, which is not
+# published; here the same two hashes are recorded by hand.
+README.md: 623432a2984d7583889ed8628942ec8dbffd5072
+README.zh.md: 362a5b36dff1d8f4bfbd9f6f8579c88399f44ca4

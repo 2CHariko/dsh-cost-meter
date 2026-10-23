@@ -1,0 +1,16 @@
+# Dependencies, if anyone installs this package from a checkout.
+node_modules/
+
+# `install.ps1` writes timestamped backups of the profile patch file next to it.
+*.bak-*
+
+# Editor and OS noise.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# NOTE: `lib/` is deliberately NOT ignored. This plugin ships hand-written
+# plain JavaScript with no build step, so the committed tree is the published
+# artifact — a git install needs `lib/` present.
